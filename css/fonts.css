@@ -6,6 +6,7 @@
     url('../fonts/AvenirNextCyr-BoldItalic.eot?#iefix') format('embedded-opentype'),
     url('../fonts/AvenirNextCyr-BoldItalic.woff') format('woff'),
     url('../fonts/AvenirNextCyr-BoldItalic.ttf') format('truetype');
+    url('../fonts/AvenirNextCyr-BoldItalic.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
 }
