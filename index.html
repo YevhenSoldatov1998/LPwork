@@ -4,36 +4,26 @@
 <head>
 
     <meta charset="utf-8">
-    <!-- <base href="/"> -->
-
     <title>HiHoney Webcam Studio</title>
     <meta name="description" content="">
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-    <!-- Template Basic Images Start -->
     <meta property="og:image" content="path/to/image.jpg">
     <link rel="icon" href="img/favicon/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
-    <!-- Template Basic Images End -->
-
-    <!-- Custom Browsers Color Start -->
     <meta name="theme-color" content="#000">
-    <!-- Custom Browsers Color End -->
-
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/main.min.css">
     <link rel="stylesheet" href="css/common.min.css">
     <link rel="stylesheet" href="css/header.min.css">
+    <link rel="stylesheet" href="css/popup.min.css">
 
 </head>
 
 <body>
 
-<!-- Custom HTML -->
 <div class="super-container">
-    <div class="first">
+    <div id="s1" class="first">
         <div class="container container-relative">
             <header>
                 <div class="logo">
@@ -44,12 +34,12 @@
                 <span class="hamburger">
                     <img src="https://image.flaticon.com/icons/svg/545/545705.svg" alt="">
                 </span>
-                    <div><a href="#">Почему мы</a></div>
-                    <div><a href="#">Преимущества</a></div>
-                    <div><a href="#">Твои шансы</a></div>
-                    <div><a href="#">Ответы и вопросы</a></div>
+                    <div><a href="#s2">Почему мы</a></div>
+                    <div><a href="#s3">Преимущества</a></div>
+                    <div><a href="#s4">Твои шансы</a></div>
+                    <div><a href="#s6">Ответы и вопросы</a></div>
                     <div class="call">
-                        <button class="btn">Перезвоните мне</button>
+                        <button class="btn show-popup-one">Перезвоните мне</button>
                     </div>
                 </div>
             </header>
@@ -63,11 +53,11 @@
                     </div>
                     <small>и зарабатывай от <strong>2000$</strong> в месяц</small>
                     <div class="content-btn">
-                        <a class="btn">Стать моделью</a>
+                        <a class="btn show-popup-two">Стать моделью</a>
                         <p>Стать свободной. Стать счастливой.» -
                             так о себе говорят наши модели</p>
                     </div>
-                    <a href="#" class="list-next">
+                    <a href="#s2" class="list-next">
                         Листайте вниз
                     </a>
                 </div>
@@ -76,8 +66,7 @@
 
         </div>
     </div>
-
-    <section class="why">
+    <section id="s2" class="why">
         <img src="img/dots.png" alt="" class="dots">
         <div class="container ">
             <img src="img/why-bg.png" alt="" class="why-bg">
@@ -85,7 +74,7 @@
             <div class="why-list">
                 <div class="why-list__item">
                     <div class="elipse">
-                        <div class="plus"><span></span><span></span></div>
+                        <div class="plus"><img src="img/plus.png" alt=""></div>
                     </div>
                     <div class="text-wrap">
                         <div class="text">Выплата до 60%</div>
@@ -94,7 +83,7 @@
                 </div>
                 <div class="why-list__item">
                     <div class="elipse">
-                        <div class="plus"><span></span><span></span></div>
+                        <div class="plus"><img src="img/plus.png" alt=""></div>
                     </div>
                     <div class="text-wrap">
                         <div class="text">Никаких штрафов</div>
@@ -103,7 +92,7 @@
                 </div>
                 <div class="why-list__item">
                     <div class="elipse">
-                        <div class="plus"><span></span><span></span></div>
+                        <div class="plus"><img src="img/plus.png" alt=""></div>
                     </div>
                     <div class="text-wrap">
                         <div class="text">Гибкий график</div>
@@ -112,7 +101,7 @@
                 </div>
                 <div class="why-list__item">
                     <div class="elipse">
-                        <div class="plus"><span></span><span></span></div>
+                        <div class="plus"><img src="img/plus.png" alt=""></div>
                     </div>
                     <div class="text-wrap">
                         <div class="text">Полная конфиденциальность и анонимность</div>
@@ -121,7 +110,7 @@
                 </div>
                 <div class="why-list__item">
                     <div class="elipse">
-                        <div class="plus"><span></span><span></span></div>
+                        <div class="plus"><img src="img/plus.png" alt=""></div>
                     </div>
                     <div class="text-wrap">
                         <div class="text">Бесплатное профессиональное портфолио</div>
@@ -130,7 +119,7 @@
                 </div>
                 <div class="why-list__item">
                     <div class="elipse">
-                        <div class="plus"><span></span><span></span></div>
+                        <div class="plus"><img src="img/plus.png" alt=""></div>
                     </div>
                     <div class="text-wrap">
                         <div class="text">Комфортное рабочее место</div>
@@ -139,7 +128,7 @@
                 </div>
                 <div class="why-list__item">
                     <div class="elipse">
-                        <div class="plus"><span></span><span></span></div>
+                        <div class="plus"><img src="img/plus.png" alt=""></div>
                     </div>
                     <div class="text-wrap">
                         <div class="text">Профессиональное оборудование</div>
@@ -148,17 +137,18 @@
                 </div>
                 <div class="why-list__item">
                     <div class="elipse">
-                        <div class="plus"><span></span><span></span></div>
+                        <div class="plus"><img src="img/plus.png" alt=""></div>
                     </div>
                     <div class="text-wrap">
                         <div class="text">Полное обеспечение</div>
-                        <div class="subtext">Каждую модель мы бесплатно обеспечиваем индивидуальными аксессуарами и декором
+                        <div class="subtext">Каждую модель мы бесплатно обеспечиваем индивидуальными аксессуарами и
+                            декором
                         </div>
                     </div>
                 </div>
                 <div class="why-list__item">
                     <div class="elipse">
-                        <div class="plus"><span></span><span></span></div>
+                        <div class="plus"><img src="img/plus.png" alt=""></div>
                     </div>
                     <div class="text-wrap">
                         <div class="text">Зарплата 2 раза в месяц</div>
@@ -167,54 +157,412 @@
                 </div>
                 <div class="why-list__item">
                     <div class="elipse">
-                        <div class="plus"><span></span><span></span></div>
+                        <div class="plus"><img src="img/plus.png" alt=""></div>
                     </div>
                     <div class="text-wrap">
                         <div class="text">Прозрачная статистика</div>
-                        <div class="subtext">Всегда можешь посмотреть в своем профиле сколько заработала, никто ничего не скрывает</div>
-                    </div>
-                </div>
-            </div>
-            </div>
-    </section>
-    <section class="s-why-boxs">
-            <div class="container">
-                <div class="why-boxs">
-                    <div class="why-box">
-                        <img src="img/why-img1.jpg" alt="" class="why-box__img">
-                        <div class="why-box__content">
-                            <h2 class="caption">Самая крутая женская команда</h2>
-                            <div >
-                                <p class="subtext">Именно команда, а не коллектив. У нас нет места сплетням и прочему негативу -
-                                    а что может быть лучше здоровой рабочей обстановки?</p>
-                                <p class="subtext pink">Мы строим отношения так, чтобы тебе хотелось быстрее <br>
-                                    вернуться на работу.</p>
-                                <p class="subtext">Наши менеджеры станут тебе лучшими друзьями. Мы регулярно устраиваем
-                                    корпоративы, потому что для нас это больше, чем просто работа - это стиль жизни.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="why-box">
-                        <img src="img/why-img2.jpg" alt="" class="why-box__img">
-                        <div class="why-box__content">
-                            <h2 class="caption">Мы за красоту и здоровый образ жизни</h2>
-                            <div >
-                                <p class="subtext">Мы против алкоголя, наркотиков и прочего. Отличие от других студий?
-                                    Мы не просто хотим дать тебе возможность зарабатывать 2 000$ - 5 000$ в месяц, нет.</p>
-                                <p class="subtext pink">Наша цель - вывести тебя на новый уровень жизни и научить <br>
-                                    финансовой грамотности.</p>
-                                <p class="subtext">Мы хотим чтобы наши девочки были красивыми, образованными и успешными.
-                                    Самое главное - свободными и счастливыми.
-                                </p>
-                            </div>
+                        <div class="subtext">Всегда можешь посмотреть в своем профиле сколько заработала, никто ничего
+                            не скрывает
                         </div>
                     </div>
                 </div>
-
             </div>
+        </div>
+    </section>
+    <section id="s3" class="s-why-boxs">
+        <div class="container">
+            <div class="why-boxs">
+                <div class="why-box">
+                    <img src="img/why-img1.jpg" alt="" class="why-box__img">
+                    <div class="why-box__content">
+                        <h2 class="caption">Самая крутая женская команда</h2>
+                        <div>
+                            <p class="subtext">Именно команда, а не коллектив. У нас нет места сплетням и прочему
+                                негативу -
+                                а что может быть лучше здоровой рабочей обстановки?</p>
+                            <p class="subtext pink">Мы строим отношения так, чтобы тебе хотелось быстрее <br>
+                                вернуться на работу.</p>
+                            <p class="subtext">Наши менеджеры станут тебе лучшими друзьями. Мы регулярно устраиваем
+                                корпоративы, потому что для нас это больше, чем просто работа - это стиль жизни.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="why-box">
+                    <img src="img/why-img2.jpg" alt="" class="why-box__img">
+                    <div class="why-box__content">
+                        <h2 class="caption">Мы за красоту и здоровый образ жизни</h2>
+                        <div>
+                            <p class="subtext">Мы против алкоголя, наркотиков и прочего. Отличие от других студий?
+                                Мы не просто хотим дать тебе возможность зарабатывать 2 000$ - 5 000$ в месяц, нет.</p>
+                            <p class="subtext pink">Наша цель - вывести тебя на новый уровень жизни и научить <br>
+                                финансовой грамотности.</p>
+                            <p class="subtext">Мы хотим чтобы наши девочки были красивыми, образованными и успешными.
+                                Самое главное - свободными и счастливыми.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </section>
+    <section id="s4" class="s-three">
+        <div class="container">
+            <div class="three">
+                <div class="three-item">
+                    <img src="img/icon1.png" alt="">
+                    <p class="text">Обучение, ведение и «прокачка» каждой модели</p>
+                    <p class="subtext">Главная цель наших менеджеров - увеличить <br>
+                        твой заработок.</p>
+                </div>
+                <div class="three-item">
+                    <img src="img/icon2.png" alt="">
+                    <p class="text">Бонусы и премии</p>
+                    <p class="subtext">Каждый месяц у тебя есть «Goal» (цель). Выполняешь цель -<br> получаешь подарки.
+                    </p>
+                </div>
+                <div class="three-item">
+                    <img src="img/icon3.png" alt="">
+                    <p class="text">Практика английского языка</p>
+                    <p class="subtext">Через 6 месяцев работы ты сможешь спокойно <br>
+                        общаться без переводчика, даже если сейчас <br>
+                        на базовом уровне</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="s5" class="s-believe">
+        <div class="container container-relative">
+            <img src="img/belive-bg.png" alt="" class="believe-bg">
+            <div class="title"><span class="thin">Проверь, есть ли у тебя шансы</span> <br>
+                работать в <span class="accent">HiHoney?</span></div>
+            <div class="believe-wrap">
+                <div class="why-list">
+                    <div class="why-list__item">
+                        <div class="elipse">
+                            <img src="img/check.png" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="text">Целеустремленная, амбициозная, ответственная и пунктуальная</div>
+                        </div>
+                    </div>
+                    <div class="why-list__item">
+                        <div class="elipse">
+                            <img src="img/check.png" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="text">Опыт работы и знание английского приветствуются, но не обязательны</div>
+                        </div>
+                    </div>
+                    <div class="why-list__item">
+                        <div class="elipse">
+                            <img src="img/check.png" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="text">Ухоженная, приятная внешность</div>
+                        </div>
+                    </div>
+                    <div class="why-list__item">
+                        <div class="elipse">
+                            <img src="img/check.png" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="text">Ты девушка от 18 до 35 лет</div>
+                        </div>
+                    </div>
+                    <div class="why-list__item">
+                        <div class="elipse">
+                            <img src="img/check.png" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="text">Уверенный пользователь ПК</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-wrap">
+                <button class="btn show-popup-three">Да, стать моделью</button>
+            </div>
+        </div>
+    </section>
+    <section id="s6" class="s-answer">
+        <img src="img/dots.png" alt="" class="dots">
+
+        <div class="container">
+            <div class="title">
+                <span class="accent"> Ответы </span><span class="thin">на частые вопросы</span>
+            </div>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion_head">
+                        <div class="wrapped">
+                            <strong>?</strong>
+                            <p class="text">Гости на этих сайтах - кто они?</p>
+                        </div>
+                        <img src="img/gr1.png" alt="" class="girl">
+                        <div class="elipse trieagle">
+                            <div class="plus"><img src="img/plus.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="accordion_body">
+                        <p class="subtext">
+                            Публика абсолютно разношерстная. Начиная от безперспективных, но очаровательных фанатов «ты
+                            такая красивая, я тебя люблю», заканчивая топовыми спонсорами, которые просто за улыбку
+                            оставят на чай 200-300$. Порой доходило до 4000$ (суточный лимит сайта). Да-да, было и
+                            такое.
+                        </p>
+
+                        <p class="strong"> В основном member (гость) это:</p>
+                        <ul class="list subtext">
+                            <li>хороший парень, которому надоели все в реальной жизни</li>
+                            <li>женатик, который не хочет заморачиваться изменами, но романтика ему нужна</li>
+                            <li>закомлексованый одиночка, который в интернете может стать другим</li>
+                        </ul>
+                        <p class="subtext">Да и здесь просто весело, ведь эти сайты - настоящая социальная сеть! По
+                            секрету, в нашей практике уже 3 модели вышли за своих «постоянников» замуж и уехали
+                            за границу.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion_head">
+                        <div class="wrapped">
+                            <strong>?</strong>
+                            <p class="text">Почему мне будут платить просто за общение?</p>
+                        </div>
+                        <img src="img/gr2.png" alt="" class="girl">
+                        <div class="elipse trieagle">
+                            <div class="plus"><img src="img/plus.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="accordion_body">
+                        <p class="subtext">
+                            Публика абсолютно разношерстная. Начиная от безперспективных, но очаровательных фанатов «ты
+                            такая красивая, я тебя люблю», заканчивая топовыми спонсорами, которые просто за улыбку
+                            оставят на чай 200-300$. Порой доходило до 4000$ (суточный лимит сайта). Да-да, было и
+                            такое.
+                        </p>
+
+                        <p class="strong"> В основном member (гость) это:</p>
+                        <ul class="list subtext">
+                            <li>хороший парень, которому надоели все в реальной жизни</li>
+                            <li>женатик, который не хочет заморачиваться изменами, но романтика ему нужна</li>
+                            <li>закомлексованый одиночка, который в интернете может стать другим</li>
+                        </ul>
+                        <p class="subtext">Да и здесь просто весело, ведь эти сайты - настоящая социальная сеть! По
+                            секрету, в нашей практике уже 3 модели вышли за своих «постоянников» замуж и уехали
+                            за границу.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion_head">
+                        <div class="wrapped">
+                            <strong>?</strong>
+                            <p class="text">Действительно ли такая высокая зарплата?</p>
+                        </div>
+                        <img src="img/gr3.png" alt="" class="girl">
+                        <div class="elipse trieagle">
+                            <div class="plus"><img src="img/plus.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="accordion_body">
+                        <p class="subtext">
+                            Публика абсолютно разношерстная. Начиная от безперспективных, но очаровательных фанатов «ты
+                            такая красивая, я тебя люблю», заканчивая топовыми спонсорами, которые просто за улыбку
+                            оставят на чай 200-300$. Порой доходило до 4000$ (суточный лимит сайта). Да-да, было и
+                            такое.
+                        </p>
+
+                        <p class="strong"> В основном member (гость) это:</p>
+                        <ul class="list subtext">
+                            <li>хороший парень, которому надоели все в реальной жизни</li>
+                            <li>женатик, который не хочет заморачиваться изменами, но романтика ему нужна</li>
+                            <li>закомлексованый одиночка, который в интернете может стать другим</li>
+                        </ul>
+                        <p class="subtext">Да и здесь просто весело, ведь эти сайты - настоящая социальная сеть! По
+                            секрету, в нашей практике уже 3 модели вышли за своих «постоянников» замуж и уехали
+                            за границу.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion_head">
+                        <div class="wrapped">
+                            <strong>?</strong>
+                            <p class="text">Успешная модель - кто она?</p>
+                        </div>
+                        <img src="img/gr4.png" alt="" class="girl">
+                        <div class="elipse trieagle">
+                            <div class="plus"><img src="img/plus.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="accordion_body">
+                        <p class="subtext">
+                            Публика абсолютно разношерстная. Начиная от безперспективных, но очаровательных фанатов «ты
+                            такая красивая, я тебя люблю», заканчивая топовыми спонсорами, которые просто за улыбку
+                            оставят на чай 200-300$. Порой доходило до 4000$ (суточный лимит сайта). Да-да, было и
+                            такое.
+                        </p>
+
+                        <p class="strong"> В основном member (гость) это:</p>
+                        <ul class="list subtext">
+                            <li>хороший парень, которому надоели все в реальной жизни</li>
+                            <li>женатик, который не хочет заморачиваться изменами, но романтика ему нужна</li>
+                            <li>закомлексованый одиночка, который в интернете может стать другим</li>
+                        </ul>
+                        <p class="subtext">Да и здесь просто весело, ведь эти сайты - настоящая социальная сеть! По
+                            секрету, в нашей практике уже 3 модели вышли за своих «постоянников» замуж и уехали
+                            за границу.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion_head">
+                        <div class="wrapped">
+                            <strong>?</strong>
+                            <p class="text">Что нужно чтобы зарабатывать в этой сфере?</p>
+                        </div>
+                        <img src="img/gr5.png" alt="" class="girl">
+                        <div class="elipse trieagle">
+                            <div class="plus"><img src="img/plus.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="accordion_body">
+                        <p class="subtext">
+                            Публика абсолютно разношерстная. Начиная от безперспективных, но очаровательных фанатов «ты
+                            такая красивая, я тебя люблю», заканчивая топовыми спонсорами, которые просто за улыбку
+                            оставят на чай 200-300$. Порой доходило до 4000$ (суточный лимит сайта). Да-да, было и
+                            такое.
+                        </p>
+
+                        <p class="strong"> В основном member (гость) это:</p>
+                        <ul class="list subtext">
+                            <li>хороший парень, которому надоели все в реальной жизни</li>
+                            <li>женатик, который не хочет заморачиваться изменами, но романтика ему нужна</li>
+                            <li>закомлексованый одиночка, который в интернете может стать другим</li>
+                        </ul>
+                        <p class="subtext">Да и здесь просто весело, ведь эти сайты - настоящая социальная сеть! По
+                            секрету, в нашей практике уже 3 модели вышли за своих «постоянников» замуж и уехали
+                            за границу.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="s7">
+        <a href="#s1" class="up"><img src="img/3-layers.png" alt=""></a>
+        <div class="container">
+            <div>
+                <div class="logo">
+                    <img src="img/header/logo.png" alt="">
+                </div>
+            </div>
+            <div class="old"><span class="circle"><span class="accent">18+</span></span></div>
+            <div class="wrap-footer">
+                <div class="left">
+                    <div class="title"><span class="thin">Запишись <br>
+                    на собеседование <br>
+                    сегодня и получи</span> <br>
+                        премию - <span class="accent">50$</span>
+                    </div>
+                    <p class="subtitle">к первой зарплате!</p>
+                </div>
+                <div class="form">
+                    <img class="footer-bg" src="img/footer-bg.png" alt="">
+                    <form>
+                        <div>
+                            <input type="text" placeholder="Ваше имя" required>
+                            <span class="required">*</span></div>
+                        <div><input type="text" placeholder="Ваш номер телефона" required>
+                            <span class="required">*</span>
+                        </div>
+                        <div><input type="text" placeholder="Ваш возраст" required>
+                            <span class="required">*</span></div>
+                        <div><input type="text" placeholder="Ссылка на профиль в соц сетях"></div>
+                        <div class="wrap-b">
+                            <button class="btn">Записаться</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="subtext">© 2020. Вебкам-агентство HiHoney</p>
+            </div>
+        </div>
+
+    </footer>
+    <div class="popup popup-one popup-hide ">
+        <div class="overlay"></div>
+        <div class="popup-item">
+            <span class="close">&times;</span>
+            <div class="form">
+                <img class="footer-bg" src="img/footer-bg.png" alt="">
+                <form>
+                    <div>
+                        <input type="text" placeholder="Ваше имя" required>
+                        <span class="required">*</span></div>
+                    <div><input type="text" placeholder="Ваш номер телефона" required>
+                        <span class="required">*</span>
+                    </div>
+                    <div><input type="text" placeholder="Ваш возраст" required>
+                        <span class="required">*</span></div>
+                    <div><input type="text" placeholder="Ссылка на профиль в соц сетях"></div>
+                    <div class="wrap-b">
+                        <button class="btn">Записаться</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="popup popup-two popup-hide ">
+        <div class="overlay"></div>
+        <div class="popup-item">
+            <span class="close">&times;</span>
+            <div class="form">
+                <img class="footer-bg" src="img/footer-bg.png" alt="">
+                <form>
+                    <div>
+                        <input type="text" placeholder="Ваше имя" required>
+                        <span class="required">*</span></div>
+                    <div><input type="text" placeholder="Ваш номер телефона" required>
+                        <span class="required">*</span>
+                    </div>
+                    <div><input type="text" placeholder="Ваш возраст" required>
+                        <span class="required">*</span></div>
+                    <div><input type="text" placeholder="Ссылка на профиль в соц сетях"></div>
+                    <div class="wrap-b">
+                        <button class="btn">Записаться</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="popup popup-three popup-hide ">
+        <div class="overlay"></div>
+        <div class="popup-item">
+            <span class="close">&times;</span>
+            <div class="form">
+                <img class="footer-bg" src="img/footer-bg.png" alt="">
+                <form>
+                    <div>
+                        <input type="text" placeholder="Ваше имя" required>
+                        <span class="required">*</span></div>
+                    <div><input type="text" placeholder="Ваш номер телефона" required>
+                        <span class="required">*</span>
+                    </div>
+                    <div><input type="text" placeholder="Ваш возраст" required>
+                        <span class="required">*</span></div>
+                    <div><input type="text" placeholder="Ссылка на профиль в соц сетях"></div>
+                    <div class="wrap-b">
+                        <button class="btn">Записаться</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
 
 <script src="js/scripts.min.js"></script>
