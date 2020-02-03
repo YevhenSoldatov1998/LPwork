@@ -30,6 +30,7 @@ $('.accordion_head').click(function () {
     var $root = $('html, body');
 
     $('a[href^="#"]').click(function () {
+          $('.menu').removeClass('active')
         $root.animate({
             scrollTop: $( $.attr(this, 'href') ).offset().top
         }, 500);
